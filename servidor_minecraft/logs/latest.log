@@ -1,0 +1,680 @@
+[07Dec2024 02:09:43.019] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[07Dec2024 02:09:43.026] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[07Dec2024 02:09:49.413] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Dec2024 02:09:49.544] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server-bien-good/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Dec2024 02:09:50.004] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 02:09:50.006] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 02:09:50.007] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 02:09:50.008] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Dec2024 02:09:50.409] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[07Dec2024 02:09:50.410] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[07Dec2024 02:09:53.174] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Dec2024 02:09:53.378] [main/ERROR] [mixin/]: Mixin config arclight.mixins.json does not specify "minVersion" property
+[07Dec2024 02:09:53.388] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[07Dec2024 02:09:53.389] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[07Dec2024 02:09:53.400] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Dec2024 02:09:53.479] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Dec2024 02:09:53.506] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for arclight.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Dec2024 02:09:53.509] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Dec2024 02:09:53.512] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Dec2024 02:09:55.631] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[07Dec2024 02:09:55.635] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[07Dec2024 02:09:55.636] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[07Dec2024 02:09:55.643] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[07Dec2024 02:09:55.644] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[07Dec2024 02:09:55.644] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[07Dec2024 02:09:55.646] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[07Dec2024 02:09:55.646] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[07Dec2024 02:09:55.875] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[07Dec2024 02:10:05.661] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[07Dec2024 02:10:05.695] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@448b808a on thread Thread[#31,modloading-worker-0,5,main]
+[07Dec2024 02:10:05.702] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[07Dec2024 02:10:05.695] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2394) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2505) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:361) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:286) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:221) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23192!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23192!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23192!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23192!/:com.obscuria]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23215!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23214!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[07Dec2024 02:10:05.722] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[07Dec2024 02:10:06.102] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[07Dec2024 02:10:06.115] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[07Dec2024 02:10:06.426] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[07Dec2024 02:10:06.426] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[07Dec2024 02:10:08.222] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[07Dec2024 02:10:08.232] [modloading-worker-0/INFO] [Bo's Player Companions/]: Thanks for using Bo's Player Companions (https://www.curseforge.com/minecraft/mc-mods/player-companions). I hope you enjoy the mod. :)
+[07Dec2024 02:10:08.238] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Menu Types ...
+[07Dec2024 02:10:08.259] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Entity Types ...
+[07Dec2024 02:10:08.264] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Items ...
+[07Dec2024 02:10:08.469] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Blocks ...
+[07Dec2024 02:10:08.478] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Sound Events ...
+[07Dec2024 02:10:08.488] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Biome Modifier Serializers ...
+[07Dec2024 02:10:08.534] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Common config ...
+[07Dec2024 02:10:17.544] [main/INFO] [Moonlight/]: Initialized block sets in 25ms
+[07Dec2024 02:10:19.451] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[07Dec2024 02:10:19.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[07Dec2024 02:10:19.627] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[07Dec2024 02:10:19.629] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Network Handler for net.minecraftforge.network.simple.SimpleChannel@7666a44c with version 4 ...
+[07Dec2024 02:10:19.682] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23214!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23214!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[07Dec2024 02:10:19.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[07Dec2024 02:10:19.707] [main/INFO] [journeymap/]: Initializing Packet Registries
+[07Dec2024 02:10:19.745] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[07Dec2024 02:10:19.746] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[07Dec2024 02:10:19.746] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[07Dec2024 02:10:19.746] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[07Dec2024 02:10:19.795] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.21 Target: 5.10.3
+[07Dec2024 02:10:19.795] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[07Dec2024 02:10:19.850] [main/INFO] [Moonlight/]: Initialized color sets in 80ms
+[07Dec2024 02:10:19.861] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07Dec2024 02:10:19.861] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[07Dec2024 02:10:19.861] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[07Dec2024 02:10:19.861] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[07Dec2024 02:10:19.862] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[07Dec2024 02:10:19.862] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[07Dec2024 02:10:19.862] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[07Dec2024 02:10:19.869] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.14 Target: 9.1.16
+[07Dec2024 02:10:19.870] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Dec2024 02:10:19.959] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[07Dec2024 02:10:19.965] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[07Dec2024 02:10:19.965] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[07Dec2024 02:10:20.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.1 Target: null
+[07Dec2024 02:10:20.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[07Dec2024 02:10:20.070] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.071] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.072] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.072] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.072] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.072] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.073] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.073] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.073] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.074] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.074] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.074] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.075] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.075] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.075] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.075] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.076] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.076] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.076] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.076] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.076] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.077] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.077] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.077] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.077] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.078] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.078] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.078] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.079] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.079] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.079] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.079] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.080] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.080] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.080] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.081] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.081] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.081] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.081] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.082] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.082] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.082] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.082] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.084] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.084] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.084] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.085] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.085] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.086] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.087] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.088] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.088] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:20.122] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[07Dec2024 02:10:20.122] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[07Dec2024 02:10:20.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.9 Target: 1.9.12
+[07Dec2024 02:10:20.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[07Dec2024 02:10:20.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.6.5 Target: 8.8.6
+[07Dec2024 02:10:20.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[07Dec2024 02:10:20.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.3.0-BETA2 Target: null
+[07Dec2024 02:10:20.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[07Dec2024 02:10:20.343] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23214!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23214!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[07Dec2024 02:10:20.344] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[07Dec2024 02:10:20.407] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: OUTDATED Current: 1.15.18 Target: 1.15.19
+[07Dec2024 02:10:26.303] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Dec2024 02:10:26.806] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.806] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.806] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.807] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.807] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.807] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.807] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.807] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.807] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.808] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.808] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.808] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.808] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.808] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.809] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.809] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.809] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.810] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.810] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.810] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.811] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.811] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.811] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.811] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.812] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.812] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.812] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.813] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.813] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.813] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.814] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.814] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.814] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.815] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.815] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.815] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.816] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.816] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.816] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.816] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.816] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.817] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.817] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.817] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.817] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.818] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.818] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.818] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.818] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.818] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.819] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.819] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.819] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.819] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.819] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.820] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.913] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.913] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.913] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.914] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.914] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.914] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.914] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.915] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.915] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.915] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.915] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.915] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.915] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.916] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.916] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.916] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.916] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.916] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.916] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.917] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.917] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.917] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.917] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.917] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.918] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.918] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.918] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.918] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.919] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.919] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.919] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.919] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.920] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.920] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.920] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.920] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.921] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.921] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.921] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.922] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.922] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.922] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.923] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.923] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.924] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.924] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.924] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.925] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.925] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.925] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.926] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.926] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.926] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.927] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.927] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:26.928] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Dec2024 02:10:32.316] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23213!/assets/.mcassetsroot' uses unexpected schema
+[07Dec2024 02:10:32.317] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23213!/data/.mcassetsroot' uses unexpected schema
+[07Dec2024 02:10:32.414] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[07Dec2024 02:10:32.414] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
+[07Dec2024 02:10:36.005] [main/INFO] [Bo's Player Companions/]: Registering player_companions commands ...
+[07Dec2024 02:10:36.080] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[07Dec2024 02:10:36.360] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:storage_blocks as it is missing following references: #forge:ores/steel (from epicpaladins-0.1.1-1.20.1-forge.jar)
+[07Dec2024 02:10:36.365] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:gems as it is missing following references: #forge:gems/ruby (from epicpaladins-0.1.1-1.20.1-forge.jar)
+[07Dec2024 02:10:37.595] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:player_companions:books/grant_player_companions_book
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[07Dec2024 02:10:38.081] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/cherry_wood
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_wood'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 02:10:38.172] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/stripped_cherry_log
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_log'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 02:10:38.219] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/stripped_cherry_wood
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_wood'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 02:10:38.238] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/cherry_log
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_log'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.20.1-0.5.1.f.jar%23169!/:0.5.1.f]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23218!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 02:10:38.287] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe player_companions:player_companions_book
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Dec2024 02:10:38.293] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 31 recipes
+[07Dec2024 02:10:38.546] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4813 advancements
+[07Dec2024 02:10:38.559] [main/INFO] [Dungeon Crawl/]: Loading data...
+[07Dec2024 02:10:38.844] [main/INFO] [Dungeon Crawl/]: Done.
+[07Dec2024 02:10:38.869] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[07Dec2024 02:10:38.876] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[07Dec2024 02:10:38.878] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[07Dec2024 02:10:44.816] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Dec2024 02:10:44.817] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Dec2024 02:10:44.817] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Dec2024 02:10:44.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Dec2024 02:10:44.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Dec2024 02:10:45.057] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Dec2024 02:10:45.247] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Dec2024 02:10:45.248] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Dec2024 02:10:45.248] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Dec2024 02:10:45.249] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Dec2024 02:10:45.269] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Dec2024 02:10:45.382] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:ash_barrens]].
+[07Dec2024 02:10:45.387] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:badlands]].
+[07Dec2024 02:10:45.400] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:basalt_deltas]].
+[07Dec2024 02:10:45.407] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.snail (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:beach]].
+[07Dec2024 02:10:45.419] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:caldera]].
+[07Dec2024 02:10:45.431] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:cherry_grove]].
+[07Dec2024 02:10:45.440] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:crag]].
+[07Dec2024 02:10:45.441] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:crimson_forest]].
+[07Dec2024 02:10:45.444] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:crystalline_chasm]].
+[07Dec2024 02:10:45.446] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.dobutsu (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:dark_forest]].
+[07Dec2024 02:10:45.458] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:desert]].
+[07Dec2024 02:10:45.467] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:emerald_peaks]].
+[07Dec2024 02:10:45.472] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:erupting_inferno]].
+[07Dec2024 02:10:45.477] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.fairy (CREATURE) with weight 16, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]].
+[07Dec2024 02:10:45.492] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:frozen_peaks]].
+[07Dec2024 02:10:45.509] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:infernal_dunes]].
+[07Dec2024 02:10:45.513] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:inverted_forest]].
+[07Dec2024 02:10:45.515] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:jade_cliffs]].
+[07Dec2024 02:10:45.518] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jagged_peaks]].
+[07Dec2024 02:10:45.520] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
+[07Dec2024 02:10:45.520] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.raptor (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
+[07Dec2024 02:10:45.521] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_slime (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
+[07Dec2024 02:10:45.527] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.fairy (CREATURE) with weight 16, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:lush_caves]].
+[07Dec2024 02:10:45.536] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:meadow]].
+[07Dec2024 02:10:45.545] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:nether_wastes]].
+[07Dec2024 02:10:45.555] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.firefly (CREATURE) with weight 5, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@4f7c2380}]]).
+[07Dec2024 02:10:45.556] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.pig (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@4f7c2380}]]).
+[07Dec2024 02:10:45.556] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.rooster (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@4f7c2380}]]).
+[07Dec2024 02:10:45.559] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:quartz_flats]].
+[07Dec2024 02:10:45.567] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:rocky_mountains]].
+[07Dec2024 02:10:45.578] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:scarlet_mountains]].
+[07Dec2024 02:10:45.607] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:snowy_cherry_grove]].
+[07Dec2024 02:10:45.613] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:snowy_slopes]].
+[07Dec2024 02:10:45.616] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:soul_sand_valley]].
+[07Dec2024 02:10:45.621] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:stony_peaks]].
+[07Dec2024 02:10:45.629] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.firefly (CREATURE) with weight 5, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@4f7c2380}]]).
+[07Dec2024 02:10:45.629] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]].
+[07Dec2024 02:10:45.630] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_slime (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]].
+[07Dec2024 02:10:45.631] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.welsh_corgi (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:taiga]].
+[07Dec2024 02:10:45.634] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:toxic_heap]].
+[07Dec2024 02:10:45.637] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:undergrowth]].
+[07Dec2024 02:10:45.639] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:visceral_heap]].
+[07Dec2024 02:10:45.641] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:volcanic_deltas]].
+[07Dec2024 02:10:45.642] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:volcanic_peaks]].
+[07Dec2024 02:10:45.648] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:warped_forest]].
+[07Dec2024 02:10:45.654] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:weeping_valley]].
+[07Dec2024 02:10:45.668] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:withered_abyss]].
+[07Dec2024 02:10:45.671] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:withered_forest]].
+[07Dec2024 02:10:45.732] [Server thread/INFO] [Bo's Player Companions/]: 👾 Supporter will automatically buff in a 8 block radius.
+[07Dec2024 02:10:45.732] [Server thread/INFO] [Bo's Player Companions/]: 👾 Healer will automatically heal between 2 - 10 hp in a 8 block radius.
+[07Dec2024 02:10:45.733] [Server thread/INFO] [Bo's Player Companions/]: 👾 Collector will automatically collect items in a 3 block radius.
+[07Dec2024 02:10:45.734] [Server thread/INFO] [Bo's Player Companions/]: Loading about 17 female NPC names ...
+[07Dec2024 02:10:45.734] [Server thread/INFO] [Bo's Player Companions/]: Loading about 17 male NPC names ...
+[07Dec2024 02:10:45.734] [Server thread/INFO] [Bo's Player Companions/]: Loading about 2 misc NPC names ...
+[07Dec2024 02:10:45.734] [Server thread/INFO] [Bo's Player Companions/]: Loading about 53 female companion names ...
+[07Dec2024 02:10:45.735] [Server thread/INFO] [Bo's Player Companions/]: Loading about 47 male companion names ...
+[07Dec2024 02:10:45.735] [Server thread/INFO] [Bo's Player Companions/]: Loading about 35 misc companion names ...
+[07Dec2024 02:10:45.735] [Server thread/INFO] [Bo's Player Companions/]: The max base health for player companions is set to 20.
+[07Dec2024 02:10:45.736] [Server thread/INFO] [Bo's Player Companions/]: The max base attack damage for player companions is set to 5.
+[07Dec2024 02:10:45.737] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions will be respawn on death with a 1200 secs delay.
+[07Dec2024 02:10:45.737] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions ignore entities from the same owner as attack target!
+[07Dec2024 02:10:45.738] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions friendly fire is disabled.
+[07Dec2024 02:10:45.738] [Server thread/INFO] [Bo's Player Companions/]: Enable automatic data backups every 1440 minutes, next backup will run at 1733623845 ...
+[07Dec2024 02:10:45.738] [Server thread/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Player Companion Data Manager ...
+[07Dec2024 02:10:46.333] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[07Dec2024 02:10:46.334] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07Dec2024 02:10:46.334] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Dec2024 02:11:05.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Dec2024 02:11:10.512] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:10.758] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.006] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.007] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.013] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.015] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.034] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.049] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.105] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.145] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.156] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.388] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:11.985] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:12.368] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:12.862] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:13.362] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Dec2024 02:11:13.862] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[07Dec2024 02:11:14.362] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[07Dec2024 02:11:14.862] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[07Dec2024 02:11:15.214] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9353 ms
+[07Dec2024 02:11:15.216] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (29.950s)! For help, type "help"
+[07Dec2024 02:11:15.336] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Dec2024 02:11:15.399] [Server thread/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Server Starting setup ...
+[07Dec2024 02:11:15.401] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions preparing data for net.minecraft.server.dedicated.DedicatedServer@4a54f1c8
+[07Dec2024 02:11:15.404] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions creating Backup 2024-12-07_02.11.15-player_companions_data.nbt ...
+[07Dec2024 02:11:15.405] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saved backup at /workspaces/Server-bien-good/servidor_minecraft/./world/./player_companions/2024-12-07_02.11.15-player_companions_data.nbt
+[07Dec2024 02:11:15.406] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions next planned backup is scheduled for 1733623875 in about 1440 min.
+[07Dec2024 02:11:15.407] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions loading data ...
+[07Dec2024 02:13:09.525] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FKL[/127.78.141.91:36943] logged in with entity id 753 at (963.5231641521985, 87.0, -936.4019594317758)
+[07Dec2024 02:13:09.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL joined the game
+[07Dec2024 02:13:09.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has made the advancement [Christmas]
+[07Dec2024 02:13:09.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has made the advancement [Mysterious Gift]
+[07Dec2024 02:16:15.431] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saving data ... de.markusbordihn.playercompanions.data.PlayerCompanionsServerData@2f4712af
