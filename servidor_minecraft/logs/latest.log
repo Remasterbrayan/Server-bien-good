@@ -678,3 +678,5 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [07Dec2024 02:13:09.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has made the advancement [Christmas]
 [07Dec2024 02:13:09.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has made the advancement [Mysterious Gift]
 [07Dec2024 02:16:15.431] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saving data ... de.markusbordihn.playercompanions.data.PlayerCompanionsServerData@2f4712af
+[07Dec2024 03:31:37.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FKL lost connection: Disconnected
+[07Dec2024 03:31:37.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL left the game
