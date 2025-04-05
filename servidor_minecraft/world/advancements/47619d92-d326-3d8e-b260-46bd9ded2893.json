@@ -7527,5 +7527,11 @@
     },
     "done": true
   },
+  "tombstone:adventure/find_easter_egg": {
+    "criteria": {
+      "coded_trigger": "2025-04-05 03:18:54 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
