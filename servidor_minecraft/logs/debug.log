@@ -7781,3 +7781,10 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [05Apr2025 04:10:06.869] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [05Apr2025 04:15:06.858] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [05Apr2025 04:15:06.871] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Apr2025 04:20:06.860] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Apr2025 04:20:06.872] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Apr2025 04:25:01.409] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.attemptInitiateCast isClient:false, spellirons_spellbooks:summon_vex(3)
+[05Apr2025 04:25:01.409] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:summon_vex(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:summon_vex], spellLevel:3, duration:20, durationRemaining:20, source:SPELLBOOK, type:LONG
+[05Apr2025 04:25:01.975] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:summon_vex(3), pmd:isCasting:true, spellID:irons_spellbooks:summon_vex], spellLevel:3, duration:20, durationRemaining:9, source:SPELLBOOK, type:LONG, cancelled:true
+[05Apr2025 04:25:06.856] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Apr2025 04:25:06.868] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
