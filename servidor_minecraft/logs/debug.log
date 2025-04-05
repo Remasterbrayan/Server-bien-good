@@ -7611,3 +7611,161 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [05Apr2025 03:30:06.877] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [05Apr2025 03:35:06.864] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [05Apr2025 03:35:06.876] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Apr2025 03:39:25.122] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:3, isClient:false
+[05Apr2025 03:39:25.122] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:25.122] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:25.122] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:25.122] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:25.122] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:25.122] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:39:29.021] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:none spellLevel:1, isClient:false
+[05Apr2025 03:39:37.971] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:raise_dead spellLevel:4, isClient:false
+[05Apr2025 03:39:37.971] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:raise_dead(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:raise_dead], spellLevel:4, duration:30, durationRemaining:30, source:MOB, type:LONG
+[05Apr2025 03:39:37.971] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.020] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.071] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.126] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.173] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.220] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.272] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.325] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.371] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.421] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.470] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.522] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.572] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.623] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.670] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.722] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.771] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.824] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.871] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.924] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:38.971] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.022] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.071] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.122] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.172] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.223] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.273] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.320] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.371] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.420] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:39.421] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:39.421] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:39.421] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:raise_dead(4), pmd:isCasting:true, spellID:irons_spellbooks:raise_dead], spellLevel:4, duration:30, durationRemaining:0, source:MOB, type:LONG
+[05Apr2025 03:39:39.422] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:raise_dead(4), pmd:isCasting:true, spellID:irons_spellbooks:raise_dead], spellLevel:4, duration:30, durationRemaining:0, source:MOB, type:LONG, cancelled:false
+[05Apr2025 03:39:40.225] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:3, isClient:false
+[05Apr2025 03:39:40.225] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:40.225] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:40.225] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:40.226] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:40.226] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:40.226] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:39:42.073] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:2, isClient:false
+[05Apr2025 03:39:42.073] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:42.073] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:42.073] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:42.073] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:42.073] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(2), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:42.074] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(2), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:39:44.372] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:magic_missile spellLevel:3, isClient:false
+[05Apr2025 03:39:44.373] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:magic_missile(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:44.373] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:44.373] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:44.373] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:44.373] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:magic_missile(3), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:44.373] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:magic_missile(3), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:39:47.022] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:magic_missile spellLevel:1, isClient:false
+[05Apr2025 03:39:47.022] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:magic_missile(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:47.022] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:47.022] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:47.022] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:47.023] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:magic_missile(1), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:47.023] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:magic_missile(1), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:39:50.473] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:3, isClient:false
+[05Apr2025 03:39:50.473] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:50.473] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:50.473] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:50.473] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:50.473] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:50.473] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:39:53.724] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:magic_missile spellLevel:2, isClient:false
+[05Apr2025 03:39:53.724] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:magic_missile(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:53.724] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:53.724] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:53.724] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:53.724] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:magic_missile(2), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:53.724] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:magic_missile(2), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:39:57.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:3, isClient:false
+[05Apr2025 03:39:57.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:57.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:39:57.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:39:57.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:39:57.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:39:57.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:40:01.125] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:1, isClient:false
+[05Apr2025 03:40:01.125] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:01.125] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:40:01.126] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:40:01.126] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:40:01.126] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(1), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:01.126] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(1), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:40:05.072] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:magic_missile spellLevel:2, isClient:false
+[05Apr2025 03:40:05.072] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:magic_missile(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:05.072] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:40:05.072] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:40:05.072] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:40:05.072] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:magic_missile(2), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:05.073] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:magic_missile(2), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:40:06.872] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Apr2025 03:40:06.885] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Apr2025 03:40:09.071] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:1, isClient:false
+[05Apr2025 03:40:09.071] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:09.071] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:40:09.071] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:40:09.071] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:40:09.071] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(1), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:09.072] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(1), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:40:12.270] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:magic_missile spellLevel:1, isClient:false
+[05Apr2025 03:40:12.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:magic_missile(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:12.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:40:12.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:40:12.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:40:12.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:magic_missile(1), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:12.271] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:magic_missile(1), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:40:14.772] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:3, isClient:false
+[05Apr2025 03:40:14.772] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:14.772] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:40:14.772] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:40:14.772] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:40:14.773] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:14.773] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:40:16.120] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:magic_missile spellLevel:2, isClient:false
+[05Apr2025 03:40:16.120] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:magic_missile(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:16.120] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:40:16.120] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:40:16.120] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:40:16.120] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:magic_missile(2), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:16.120] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:magic_missile(2), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:2, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:40:17.130] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.attemptInitiateCast isClient:false, spellirons_spellbooks:summon_vex(3)
+[05Apr2025 03:40:17.130] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:summon_vex(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:summon_vex], spellLevel:3, duration:20, durationRemaining:20, source:SPELLBOOK, type:LONG
+[05Apr2025 03:40:18.124] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.castSpell isClient:false, spellirons_spellbooks:summon_vex(3)
+[05Apr2025 03:40:18.125] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:summon_vex(3), pmd:isCasting:true, spellID:irons_spellbooks:summon_vex], spellLevel:3, duration:20, durationRemaining:0, source:SPELLBOOK, type:LONG
+[05Apr2025 03:40:18.125] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:summon_vex(3), pmd:isCasting:true, spellID:irons_spellbooks:summon_vex], spellLevel:3, duration:20, durationRemaining:0, source:SPELLBOOK, type:LONG, cancelled:false
+[05Apr2025 03:40:18.371] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:icicle spellLevel:3, isClient:false
+[05Apr2025 03:40:18.372] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:icicle(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:18.372] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:40:18.372] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:40:18.372] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:40:18.372] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:18.372] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:icicle(3), pmd:isCasting:true, spellID:irons_spellbooks:icicle], spellLevel:3, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:40:19.920] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.initiateCastSpell: spellType:irons_spellbooks:magic_missile spellLevel:1, isClient:false
+[05Apr2025 03:40:19.920] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:magic_missile(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:19.920] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.1
+[05Apr2025 03:40:19.920] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.2
+[05Apr2025 03:40:19.920] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: ASCM.customServerAiStep.3
+[05Apr2025 03:40:19.920] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:magic_missile(1), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT
+[05Apr2025 03:40:19.920] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:magic_missile(1), pmd:isCasting:true, spellID:irons_spellbooks:magic_missile], spellLevel:1, duration:0, durationRemaining:0, source:MOB, type:INSTANT, cancelled:false
+[05Apr2025 03:45:06.861] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Apr2025 03:45:06.872] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
