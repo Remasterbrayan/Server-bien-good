@@ -7607,3 +7607,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [05Apr2025 03:26:08.529] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:fang_strike(1), pmd:isCasting:true, spellID:irons_spellbooks:fang_strike], spellLevel:1, duration:15, durationRemaining:0, source:MOB, type:LONG
 [05Apr2025 03:26:08.529] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:fang_strike(1), pmd:isCasting:true, spellID:irons_spellbooks:fang_strike], spellLevel:1, duration:15, durationRemaining:0, source:MOB, type:LONG, cancelled:false
 [05Apr2025 03:26:16.576] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.attemptInitiateCast isClient:false, spellirons_spellbooks:summon_vex(3)
+[05Apr2025 03:30:06.865] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Apr2025 03:30:06.877] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Apr2025 03:35:06.864] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Apr2025 03:35:06.876] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
