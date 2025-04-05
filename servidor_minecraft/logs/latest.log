@@ -683,3 +683,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [05Apr2025 02:39:50.112] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions next planned backup is scheduled for 1743907190 in about 1440 min.
 [05Apr2025 02:39:50.112] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions loading data ...
 [05Apr2025 02:44:50.066] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saving data ... de.markusbordihn.playercompanions.data.PlayerCompanionsServerData@76a7750e
+[05Apr2025 02:58:33.500] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FKL[/127.26.175.236:47955] logged in with entity id 758 at (1174.3338695725208, 69.0, -1204.103028865382)
+[05Apr2025 02:58:33.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL joined the game
+[05Apr2025 03:03:35.499] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FKL moved too quickly! 10.025042089502222,-1.0244240882136921,-1.1732553329379698
+[05Apr2025 03:03:35.542] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16729ms or 334 ticks behind
+[05Apr2025 03:18:54.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has made the advancement [Easter Egg Searcher]
