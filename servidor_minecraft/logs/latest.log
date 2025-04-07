@@ -1,35 +1,34 @@
-[05Apr2025 02:38:48.758] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[05Apr2025 02:38:48.763] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[05Apr2025 02:38:50.321] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[05Apr2025 02:38:50.370] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server-bien-good/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[05Apr2025 02:38:50.697] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[05Apr2025 02:38:50.698] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Apr2025 02:38:50.699] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Apr2025 02:38:50.700] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Apr2025 02:38:50.926] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[05Apr2025 02:38:50.928] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
-[05Apr2025 02:38:53.424] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[05Apr2025 02:38:53.566] [main/ERROR] [mixin/]: Mixin config arclight.mixins.json does not specify "minVersion" property
-[05Apr2025 02:38:53.582] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[05Apr2025 02:38:53.584] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[05Apr2025 02:38:53.602] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Apr2025 02:38:53.700] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Apr2025 02:38:53.743] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for arclight.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Apr2025 02:38:53.748] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Apr2025 02:38:53.753] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Apr2025 02:38:55.214] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[05Apr2025 02:38:55.215] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[05Apr2025 02:38:55.215] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[05Apr2025 02:38:55.217] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[05Apr2025 02:38:55.217] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[05Apr2025 02:38:55.217] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[05Apr2025 02:38:55.218] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[05Apr2025 02:38:55.219] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[05Apr2025 02:38:55.361] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[05Apr2025 02:39:02.345] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[05Apr2025 02:39:02.360] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[05Apr2025 02:39:02.380] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@de7e193 on thread Thread[modloading-worker-0,5,main]
-[05Apr2025 02:39:02.381] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+[07Apr2025 00:34:11.355] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[07Apr2025 00:34:11.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[07Apr2025 00:34:17.441] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Apr2025 00:34:17.552] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server-bien-good/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Apr2025 00:34:18.321] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[07Apr2025 00:34:18.323] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Apr2025 00:34:18.325] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Apr2025 00:34:18.326] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Apr2025 00:34:18.729] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[07Apr2025 00:34:18.731] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[07Apr2025 00:34:22.370] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Apr2025 00:34:22.723] [main/ERROR] [mixin/]: Mixin config arclight.mixins.json does not specify "minVersion" property
+[07Apr2025 00:34:22.756] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[07Apr2025 00:34:22.758] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[07Apr2025 00:34:22.777] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Apr2025 00:34:22.974] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Apr2025 00:34:23.037] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for arclight.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Apr2025 00:34:23.043] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Apr2025 00:34:23.053] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Apr2025 00:34:25.438] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[07Apr2025 00:34:25.439] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[07Apr2025 00:34:25.440] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[07Apr2025 00:34:25.441] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[07Apr2025 00:34:25.442] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[07Apr2025 00:34:25.443] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[07Apr2025 00:34:25.445] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[07Apr2025 00:34:25.445] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[07Apr2025 00:34:25.843] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[07Apr2025 00:34:35.700] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[07Apr2025 00:34:35.716] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@46046c06 on thread Thread[modloading-worker-0,5,main]
+[07Apr2025 00:34:35.717] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
 java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
 	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
@@ -77,24 +76,25 @@ java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.Re
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[05Apr2025 02:39:02.385] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[05Apr2025 02:39:02.758] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[05Apr2025 02:39:02.793] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
-[05Apr2025 02:39:03.059] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[05Apr2025 02:39:03.060] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[05Apr2025 02:39:04.187] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
-[05Apr2025 02:39:04.191] [modloading-worker-0/INFO] [Bo's Player Companions/]: Thanks for using Bo's Player Companions (https://www.curseforge.com/minecraft/mc-mods/player-companions). I hope you enjoy the mod. :)
-[05Apr2025 02:39:04.192] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Menu Types ...
-[05Apr2025 02:39:04.199] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Entity Types ...
-[05Apr2025 02:39:04.209] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Items ...
-[05Apr2025 02:39:04.258] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Blocks ...
-[05Apr2025 02:39:04.263] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Sound Events ...
-[05Apr2025 02:39:04.265] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Biome Modifier Serializers ...
-[05Apr2025 02:39:04.294] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Common config ...
-[05Apr2025 02:39:10.932] [main/INFO] [Moonlight/]: Initialized block sets in 14ms
-[05Apr2025 02:39:12.309] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[05Apr2025 02:39:12.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[05Apr2025 02:39:12.424] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[07Apr2025 00:34:35.728] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[07Apr2025 00:34:35.742] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[07Apr2025 00:34:36.234] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[07Apr2025 00:34:36.291] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[07Apr2025 00:34:36.611] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[07Apr2025 00:34:36.611] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[07Apr2025 00:34:38.699] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[07Apr2025 00:34:38.706] [modloading-worker-0/INFO] [Bo's Player Companions/]: Thanks for using Bo's Player Companions (https://www.curseforge.com/minecraft/mc-mods/player-companions). I hope you enjoy the mod. :)
+[07Apr2025 00:34:38.713] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Menu Types ...
+[07Apr2025 00:34:38.729] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Entity Types ...
+[07Apr2025 00:34:38.749] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Items ...
+[07Apr2025 00:34:38.835] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Blocks ...
+[07Apr2025 00:34:38.837] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Sound Events ...
+[07Apr2025 00:34:38.853] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Biome Modifier Serializers ...
+[07Apr2025 00:34:38.928] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Common config ...
+[07Apr2025 00:34:48.033] [main/INFO] [Moonlight/]: Initialized block sets in 20ms
+[07Apr2025 00:34:49.708] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[07Apr2025 00:34:49.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[07Apr2025 00:34:49.799] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -109,96 +109,96 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[05Apr2025 02:39:12.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[05Apr2025 02:39:12.488] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
-[05Apr2025 02:39:12.493] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Network Handler for net.minecraftforge.network.simple.SimpleChannel@49e22b83 with version 4 ...
-[05Apr2025 02:39:12.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.21 Target: 5.10.3
-[05Apr2025 02:39:12.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[05Apr2025 02:39:12.574] [main/INFO] [journeymap/]: Initializing Packet Registries
-[05Apr2025 02:39:12.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.14 Target: 9.1.16
-[05Apr2025 02:39:12.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[05Apr2025 02:39:12.606] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[05Apr2025 02:39:12.607] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[05Apr2025 02:39:12.607] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[05Apr2025 02:39:12.607] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[05Apr2025 02:39:12.672] [main/INFO] [Moonlight/]: Initialized color sets in 46ms
-[05Apr2025 02:39:12.678] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[05Apr2025 02:39:12.678] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[05Apr2025 02:39:12.678] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[05Apr2025 02:39:12.679] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[05Apr2025 02:39:12.679] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[05Apr2025 02:39:12.679] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[05Apr2025 02:39:12.679] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[05Apr2025 02:39:12.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[05Apr2025 02:39:12.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[05Apr2025 02:39:12.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.1 Target: null
-[05Apr2025 02:39:12.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[05Apr2025 02:39:12.762] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[05Apr2025 02:39:12.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
-[05Apr2025 02:39:12.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[05Apr2025 02:39:12.855] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.856] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.856] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.856] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.857] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.857] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.857] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.858] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.858] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.858] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.858] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.858] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.859] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.859] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.859] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.860] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.860] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.860] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.860] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.861] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.861] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.861] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.861] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.861] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.862] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.862] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.862] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.862] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.863] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.863] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.863] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.863] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.864] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.864] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.864] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.864] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.865] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.865] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.865] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.865] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.865] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.866] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.866] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.866] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.866] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.867] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.867] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.867] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.867] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.868] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.868] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.868] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.868] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.869] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.869] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.869] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:12.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.9 Target: 1.9.12
-[05Apr2025 02:39:12.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[05Apr2025 02:39:12.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.6.5 Target: 8.9.2
-[05Apr2025 02:39:12.982] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
-[05Apr2025 02:39:13.018] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.3.0-BETA2 Target: null
-[05Apr2025 02:39:13.018] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[05Apr2025 02:39:13.032] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[07Apr2025 00:34:49.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[07Apr2025 00:34:50.101] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.21 Target: 5.10.3
+[07Apr2025 00:34:50.101] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[07Apr2025 00:34:50.146] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[07Apr2025 00:34:50.151] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Network Handler for net.minecraftforge.network.simple.SimpleChannel@1a859c9c with version 4 ...
+[07Apr2025 00:34:50.210] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.14 Target: 9.1.16
+[07Apr2025 00:34:50.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Apr2025 00:34:50.245] [main/INFO] [journeymap/]: Initializing Packet Registries
+[07Apr2025 00:34:50.281] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[07Apr2025 00:34:50.281] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[07Apr2025 00:34:50.282] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[07Apr2025 00:34:50.282] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[07Apr2025 00:34:50.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[07Apr2025 00:34:50.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[07Apr2025 00:34:50.345] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.1 Target: null
+[07Apr2025 00:34:50.346] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[07Apr2025 00:34:50.381] [main/INFO] [Moonlight/]: Initialized color sets in 68ms
+[07Apr2025 00:34:50.390] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07Apr2025 00:34:50.390] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[07Apr2025 00:34:50.390] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[07Apr2025 00:34:50.391] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[07Apr2025 00:34:50.391] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[07Apr2025 00:34:50.392] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[07Apr2025 00:34:50.392] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[07Apr2025 00:34:50.482] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[07Apr2025 00:34:50.501] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[07Apr2025 00:34:50.501] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[07Apr2025 00:34:50.601] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.602] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.602] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.603] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.603] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.603] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.603] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.603] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.604] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.604] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.604] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.605] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.605] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.605] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.605] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.606] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.606] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.606] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.607] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.607] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.608] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.610] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.610] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.611] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.611] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.611] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.612] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.612] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.612] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.613] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.613] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.614] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.614] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.615] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.615] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.615] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.616] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.616] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.616] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.616] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.617] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.617] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.617] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.617] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.618] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.618] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.618] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.618] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.619] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.619] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.619] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.619] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.620] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.620] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.620] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.620] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:50.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.9 Target: 1.9.12
+[07Apr2025 00:34:50.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[07Apr2025 00:34:50.638] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.6.5 Target: 8.9.2
+[07Apr2025 00:34:50.639] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[07Apr2025 00:34:50.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.3.0-BETA2 Target: null
+[07Apr2025 00:34:50.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[07Apr2025 00:34:50.702] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -213,130 +213,130 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[05Apr2025 02:39:13.033] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
-[05Apr2025 02:39:13.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: OUTDATED Current: 1.15.18 Target: 1.15.20
-[05Apr2025 02:39:17.769] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05Apr2025 02:39:18.080] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.081] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.081] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.081] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.081] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.082] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.082] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.082] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.082] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.083] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.084] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.084] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.084] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.084] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.085] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.085] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.085] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.085] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.086] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.086] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.086] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.086] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.087] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.087] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.087] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.087] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.087] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.088] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.088] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.088] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.088] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.089] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.089] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.089] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.089] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.090] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.090] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.090] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.090] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.091] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.091] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.091] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.091] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.092] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.092] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.092] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.092] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.093] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.093] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.093] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.093] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.094] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.210] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.210] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.210] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.210] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.211] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.211] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.211] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.211] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.212] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.212] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.212] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.212] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.212] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.213] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.213] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.213] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.213] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.213] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.214] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.214] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.214] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.214] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.214] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.215] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.215] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.215] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.215] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.215] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.215] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.216] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.216] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.216] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.216] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.216] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.217] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.217] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.217] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.217] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.217] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.218] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.218] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.218] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.218] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.218] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.219] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.219] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.219] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.219] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.219] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.220] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.220] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.220] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.220] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.220] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.221] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:18.221] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
-[05Apr2025 02:39:22.598] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23213!/assets/.mcassetsroot' uses unexpected schema
-[05Apr2025 02:39:22.599] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23213!/data/.mcassetsroot' uses unexpected schema
-[05Apr2025 02:39:22.666] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
-[05Apr2025 02:39:22.666] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
-[05Apr2025 02:39:25.202] [main/INFO] [Bo's Player Companions/]: Registering player_companions commands ...
-[05Apr2025 02:39:25.260] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[05Apr2025 02:39:25.402] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:gems as it is missing following references: #forge:gems/ruby (from epicpaladins-0.1.1-1.20.1-forge.jar)
-[05Apr2025 02:39:25.425] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:storage_blocks as it is missing following references: #forge:ores/steel (from epicpaladins-0.1.1-1.20.1-forge.jar)
-[05Apr2025 02:39:26.143] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:player_companions:books/grant_player_companions_book
+[07Apr2025 00:34:50.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[07Apr2025 00:34:50.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: OUTDATED Current: 1.15.18 Target: 1.15.20
+[07Apr2025 00:34:57.900] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Apr2025 00:34:58.180] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.181] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.181] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.181] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.181] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.182] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.182] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.182] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.182] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.182] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.182] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.183] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.183] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.183] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.183] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.183] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.184] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.184] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.184] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.184] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.184] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.185] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.185] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.185] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.185] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.185] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.186] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.186] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.186] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.186] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.186] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.186] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.187] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.187] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.187] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.187] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.187] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.188] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.188] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.188] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.188] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.188] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.188] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.189] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.189] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.189] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.189] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.189] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.190] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.190] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.190] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.190] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.190] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.191] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.191] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.191] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.300] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.301] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.301] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.301] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.301] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.301] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.302] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.302] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.302] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.302] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.302] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.302] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.303] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.303] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.303] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.303] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.303] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.303] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.304] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.304] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.304] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.304] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.304] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.305] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.305] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.305] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.305] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.305] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.305] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.306] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.306] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.306] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.306] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.306] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.306] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.307] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.307] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.307] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.307] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.307] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.307] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.308] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.308] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.308] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.308] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.308] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.308] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.309] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.309] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.309] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.309] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.309] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.309] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.310] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.310] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:34:58.310] [main/ERROR] [net.minecraft.Util/]: Entity irons_spellbooks:catacombs_skeleton_horse has no attributes
+[07Apr2025 00:35:03.381] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23213!/assets/.mcassetsroot' uses unexpected schema
+[07Apr2025 00:35:03.382] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-bien-good/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23213!/data/.mcassetsroot' uses unexpected schema
+[07Apr2025 00:35:03.477] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[07Apr2025 00:35:03.477] [main/ERROR] [Cristel Lib/]: T&T Waystone Patch Pack condition is false, skipping
+[07Apr2025 00:35:07.424] [main/INFO] [Bo's Player Companions/]: Registering player_companions commands ...
+[07Apr2025 00:35:07.475] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[07Apr2025 00:35:07.761] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:gems as it is missing following references: #forge:gems/ruby (from epicpaladins-0.1.1-1.20.1-forge.jar)
+[07Apr2025 00:35:07.866] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:storage_blocks as it is missing following references: #forge:ores/steel (from epicpaladins-0.1.1-1.20.1-forge.jar)
+[07Apr2025 00:35:09.188] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:player_companions:books/grant_player_companions_book
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -388,7 +388,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[05Apr2025 02:39:26.467] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/cherry_wood
+[07Apr2025 00:35:09.638] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/cherry_wood
 com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_wood'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -427,7 +427,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_wood'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Apr2025 02:39:26.535] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/stripped_cherry_log
+[07Apr2025 00:35:09.709] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/stripped_cherry_log
 com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_log'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -466,7 +466,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Apr2025 02:39:26.556] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/stripped_cherry_wood
+[07Apr2025 00:35:09.733] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/stripped_cherry_wood
 com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_wood'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -505,7 +505,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Apr2025 02:39:26.571] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/cherry_log
+[07Apr2025 00:35:09.752] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:cutting/compat/biomesoplenty/cherry_log
 com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_log'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -544,7 +544,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_log'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Apr2025 02:39:26.612] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe player_companions:player_companions_book
+[07Apr2025 00:35:09.804] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe player_companions:player_companions_book
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23213!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -573,156 +573,120 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Apr2025 02:39:26.617] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 31 recipes
-[05Apr2025 02:39:26.804] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4813 advancements
-[05Apr2025 02:39:26.816] [main/INFO] [Dungeon Crawl/]: Loading data...
-[05Apr2025 02:39:27.209] [main/INFO] [Dungeon Crawl/]: Done.
-[05Apr2025 02:39:27.231] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[05Apr2025 02:39:27.236] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[05Apr2025 02:39:27.238] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
-[05Apr2025 02:39:31.515] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[05Apr2025 02:39:31.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[05Apr2025 02:39:31.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[05Apr2025 02:39:31.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[05Apr2025 02:39:31.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[05Apr2025 02:39:31.630] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[05Apr2025 02:39:31.712] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05Apr2025 02:39:31.712] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[05Apr2025 02:39:31.713] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05Apr2025 02:39:31.713] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[05Apr2025 02:39:31.732] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Apr2025 02:39:31.734] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Apr2025 02:39:31.735] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Apr2025 02:39:31.795] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:ash_barrens]].
-[05Apr2025 02:39:31.799] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:badlands]].
-[05Apr2025 02:39:31.805] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:basalt_deltas]].
-[05Apr2025 02:39:31.808] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.snail (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:beach]].
-[05Apr2025 02:39:31.820] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:caldera]].
-[05Apr2025 02:39:31.829] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:cherry_grove]].
-[05Apr2025 02:39:31.835] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:crag]].
-[05Apr2025 02:39:31.836] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:crimson_forest]].
-[05Apr2025 02:39:31.838] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:crystalline_chasm]].
-[05Apr2025 02:39:31.839] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.dobutsu (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:dark_forest]].
-[05Apr2025 02:39:31.846] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:desert]].
-[05Apr2025 02:39:31.852] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:emerald_peaks]].
-[05Apr2025 02:39:31.857] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:erupting_inferno]].
-[05Apr2025 02:39:31.860] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.fairy (CREATURE) with weight 16, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]].
-[05Apr2025 02:39:31.866] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:frozen_peaks]].
-[05Apr2025 02:39:31.879] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:infernal_dunes]].
-[05Apr2025 02:39:31.881] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:inverted_forest]].
-[05Apr2025 02:39:31.882] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:jade_cliffs]].
-[05Apr2025 02:39:31.883] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jagged_peaks]].
-[05Apr2025 02:39:31.885] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
-[05Apr2025 02:39:31.885] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.raptor (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
-[05Apr2025 02:39:31.885] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_slime (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
-[05Apr2025 02:39:31.891] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.fairy (CREATURE) with weight 16, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:lush_caves]].
-[05Apr2025 02:39:31.897] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:meadow]].
-[05Apr2025 02:39:31.905] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:nether_wastes]].
-[05Apr2025 02:39:31.915] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.firefly (CREATURE) with weight 5, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@336fcf82}]]).
-[05Apr2025 02:39:31.915] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.pig (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@336fcf82}]]).
-[05Apr2025 02:39:31.915] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.rooster (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@336fcf82}]]).
-[05Apr2025 02:39:31.917] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:quartz_flats]].
-[05Apr2025 02:39:31.922] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:rocky_mountains]].
-[05Apr2025 02:39:31.930] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:scarlet_mountains]].
-[05Apr2025 02:39:31.941] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:snowy_cherry_grove]].
-[05Apr2025 02:39:31.946] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:snowy_slopes]].
-[05Apr2025 02:39:31.948] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:soul_sand_valley]].
-[05Apr2025 02:39:31.951] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:stony_peaks]].
-[05Apr2025 02:39:31.953] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.firefly (CREATURE) with weight 5, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@336fcf82}]]).
-[05Apr2025 02:39:31.954] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]].
-[05Apr2025 02:39:31.954] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_slime (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]].
-[05Apr2025 02:39:31.955] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.welsh_corgi (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:taiga]].
-[05Apr2025 02:39:31.957] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:toxic_heap]].
-[05Apr2025 02:39:31.961] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:undergrowth]].
-[05Apr2025 02:39:31.962] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:visceral_heap]].
-[05Apr2025 02:39:31.965] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:volcanic_deltas]].
-[05Apr2025 02:39:31.966] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:volcanic_peaks]].
-[05Apr2025 02:39:31.969] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:warped_forest]].
-[05Apr2025 02:39:31.972] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:weeping_valley]].
-[05Apr2025 02:39:31.977] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:withered_abyss]].
-[05Apr2025 02:39:31.977] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:withered_forest]].
-[05Apr2025 02:39:32.012] [Server thread/INFO] [Bo's Player Companions/]: 👾 Supporter will automatically buff in a 8 block radius.
-[05Apr2025 02:39:32.013] [Server thread/INFO] [Bo's Player Companions/]: 👾 Healer will automatically heal between 2 - 10 hp in a 8 block radius.
-[05Apr2025 02:39:32.013] [Server thread/INFO] [Bo's Player Companions/]: 👾 Collector will automatically collect items in a 3 block radius.
-[05Apr2025 02:39:32.013] [Server thread/INFO] [Bo's Player Companions/]: Loading about 17 female NPC names ...
-[05Apr2025 02:39:32.013] [Server thread/INFO] [Bo's Player Companions/]: Loading about 17 male NPC names ...
-[05Apr2025 02:39:32.013] [Server thread/INFO] [Bo's Player Companions/]: Loading about 2 misc NPC names ...
-[05Apr2025 02:39:32.014] [Server thread/INFO] [Bo's Player Companions/]: Loading about 53 female companion names ...
-[05Apr2025 02:39:32.014] [Server thread/INFO] [Bo's Player Companions/]: Loading about 47 male companion names ...
-[05Apr2025 02:39:32.014] [Server thread/INFO] [Bo's Player Companions/]: Loading about 35 misc companion names ...
-[05Apr2025 02:39:32.014] [Server thread/INFO] [Bo's Player Companions/]: The max base health for player companions is set to 20.
-[05Apr2025 02:39:32.015] [Server thread/INFO] [Bo's Player Companions/]: The max base attack damage for player companions is set to 5.
-[05Apr2025 02:39:32.015] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions will be respawn on death with a 1200 secs delay.
-[05Apr2025 02:39:32.015] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions ignore entities from the same owner as attack target!
-[05Apr2025 02:39:32.015] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions friendly fire is disabled.
-[05Apr2025 02:39:32.015] [Server thread/INFO] [Bo's Player Companions/]: Enable automatic data backups every 1440 minutes, next backup will run at 1743907172 ...
-[05Apr2025 02:39:32.016] [Server thread/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Player Companion Data Manager ...
-[05Apr2025 02:39:32.366] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[05Apr2025 02:39:32.367] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[05Apr2025 02:39:32.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[05Apr2025 02:39:44.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[05Apr2025 02:39:48.785] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.787] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.787] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.788] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.789] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.790] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.790] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.791] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.791] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:48.791] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Apr2025 02:39:49.245] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[05Apr2025 02:39:49.745] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[05Apr2025 02:39:50.021] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5777 ms
-[05Apr2025 02:39:50.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.296s)! For help, type "help"
-[05Apr2025 02:39:50.070] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[05Apr2025 02:39:50.109] [Server thread/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Server Starting setup ...
-[05Apr2025 02:39:50.109] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions preparing data for net.minecraft.server.dedicated.DedicatedServer@404f8452
-[05Apr2025 02:39:50.111] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions creating Backup 2025-04-05_02.39.50-player_companions_data.nbt ...
-[05Apr2025 02:39:50.111] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saved backup at /workspaces/Server-bien-good/servidor_minecraft/./world/./player_companions/2025-04-05_02.39.50-player_companions_data.nbt
-[05Apr2025 02:39:50.112] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions next planned backup is scheduled for 1743907190 in about 1440 min.
-[05Apr2025 02:39:50.112] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions loading data ...
-[05Apr2025 02:44:50.066] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saving data ... de.markusbordihn.playercompanions.data.PlayerCompanionsServerData@76a7750e
-[05Apr2025 02:58:33.500] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FKL[/127.26.175.236:47955] logged in with entity id 758 at (1174.3338695725208, 69.0, -1204.103028865382)
-[05Apr2025 02:58:33.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL joined the game
-[05Apr2025 03:03:35.499] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FKL moved too quickly! 10.025042089502222,-1.0244240882136921,-1.1732553329379698
-[05Apr2025 03:03:35.542] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16729ms or 334 ticks behind
-[05Apr2025 03:18:54.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has made the advancement [Easter Egg Searcher]
-[05Apr2025 04:55:26.175] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FKL lost connection: Disconnected
-[05Apr2025 04:55:26.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL left the game
-[05Apr2025 04:55:54.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[05Apr2025 04:55:55.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[05Apr2025 04:55:55.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[05Apr2025 04:55:55.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[05Apr2025 04:55:55.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05Apr2025 04:55:56.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
-[05Apr2025 04:55:56.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[05Apr2025 04:55:56.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
-[05Apr2025 04:55:56.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
-[05Apr2025 04:55:56.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
-[05Apr2025 04:55:56.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
-[05Apr2025 04:55:56.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
-[05Apr2025 04:55:56.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
-[05Apr2025 04:55:56.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[05Apr2025 04:55:56.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
-[05Apr2025 04:55:56.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[05Apr2025 04:55:56.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
-[05Apr2025 04:55:56.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
-[05Apr2025 04:55:56.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
-[05Apr2025 04:55:56.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05Apr2025 04:55:56.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[05Apr2025 04:55:56.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05Apr2025 04:55:56.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[05Apr2025 04:55:56.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[05Apr2025 04:55:56.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[05Apr2025 04:55:56.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[05Apr2025 04:55:56.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[05Apr2025 04:55:56.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[05Apr2025 04:55:56.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05Apr2025 04:55:56.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[05Apr2025 04:55:56.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[05Apr2025 04:55:56.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
-[05Apr2025 04:55:56.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
-[05Apr2025 04:55:56.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
-[05Apr2025 04:55:56.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05Apr2025 04:55:56.511] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Apr2025 00:35:09.812] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 31 recipes
+[07Apr2025 00:35:10.044] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4813 advancements
+[07Apr2025 00:35:10.062] [main/INFO] [Dungeon Crawl/]: Loading data...
+[07Apr2025 00:35:10.400] [main/INFO] [Dungeon Crawl/]: Done.
+[07Apr2025 00:35:10.429] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[07Apr2025 00:35:10.436] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[07Apr2025 00:35:10.442] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[07Apr2025 00:35:15.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Apr2025 00:35:15.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Apr2025 00:35:15.744] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Apr2025 00:35:15.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Apr2025 00:35:15.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Apr2025 00:35:15.894] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Apr2025 00:35:16.000] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Apr2025 00:35:16.000] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Apr2025 00:35:16.000] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Apr2025 00:35:16.001] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Apr2025 00:35:16.020] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Apr2025 00:35:16.021] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Apr2025 00:35:16.022] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Apr2025 00:35:16.099] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:ash_barrens]].
+[07Apr2025 00:35:16.106] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:badlands]].
+[07Apr2025 00:35:16.112] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:basalt_deltas]].
+[07Apr2025 00:35:16.116] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.snail (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:beach]].
+[07Apr2025 00:35:16.124] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:caldera]].
+[07Apr2025 00:35:16.138] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:cherry_grove]].
+[07Apr2025 00:35:16.149] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:crag]].
+[07Apr2025 00:35:16.152] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:crimson_forest]].
+[07Apr2025 00:35:16.156] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:crystalline_chasm]].
+[07Apr2025 00:35:16.158] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.dobutsu (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:dark_forest]].
+[07Apr2025 00:35:16.169] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:desert]].
+[07Apr2025 00:35:16.178] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:emerald_peaks]].
+[07Apr2025 00:35:16.183] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:erupting_inferno]].
+[07Apr2025 00:35:16.189] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.fairy (CREATURE) with weight 16, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]].
+[07Apr2025 00:35:16.198] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:frozen_peaks]].
+[07Apr2025 00:35:16.214] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:infernal_dunes]].
+[07Apr2025 00:35:16.216] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:inverted_forest]].
+[07Apr2025 00:35:16.217] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:jade_cliffs]].
+[07Apr2025 00:35:16.218] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jagged_peaks]].
+[07Apr2025 00:35:16.219] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
+[07Apr2025 00:35:16.220] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.raptor (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
+[07Apr2025 00:35:16.220] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_slime (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:jungle]].
+[07Apr2025 00:35:16.226] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.fairy (CREATURE) with weight 16, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:lush_caves]].
+[07Apr2025 00:35:16.235] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:meadow]].
+[07Apr2025 00:35:16.246] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:nether_wastes]].
+[07Apr2025 00:35:16.259] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.firefly (CREATURE) with weight 5, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@2c370541}]]).
+[07Apr2025 00:35:16.259] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.pig (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@2c370541}]]).
+[07Apr2025 00:35:16.260] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.rooster (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:plains]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@2c370541}]]).
+[07Apr2025 00:35:16.262] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:quartz_flats]].
+[07Apr2025 00:35:16.268] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:rocky_mountains]].
+[07Apr2025 00:35:16.281] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:scarlet_mountains]].
+[07Apr2025 00:35:16.294] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:snowy_cherry_grove]].
+[07Apr2025 00:35:16.301] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:snowy_slopes]].
+[07Apr2025 00:35:16.305] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:soul_sand_valley]].
+[07Apr2025 00:35:16.308] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:stony_peaks]].
+[07Apr2025 00:35:16.311] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.firefly (CREATURE) with weight 5, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]] (excluding DirectSet[[Reference{ResourceKey[minecraft:worldgen/biome / minecraft:flower_forest]=net.minecraft.world.level.biome.Biome@2c370541}]]).
+[07Apr2025 00:35:16.312] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.lizard (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]].
+[07Apr2025 00:35:16.312] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_slime (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:swamp]].
+[07Apr2025 00:35:16.313] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.welsh_corgi (CREATURE) with weight 6, min 1 and max 2 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:taiga]].
+[07Apr2025 00:35:16.316] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:toxic_heap]].
+[07Apr2025 00:35:16.319] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:undergrowth]].
+[07Apr2025 00:35:16.321] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:visceral_heap]].
+[07Apr2025 00:35:16.324] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:volcanic_deltas]].
+[07Apr2025 00:35:16.325] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.samurai (CREATURE) with weight 6, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / terralith:volcanic_peaks]].
+[07Apr2025 00:35:16.328] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / minecraft:warped_forest]].
+[07Apr2025 00:35:16.331] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:weeping_valley]].
+[07Apr2025 00:35:16.343] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / biomesoplenty:withered_abyss]].
+[07Apr2025 00:35:16.344] [Server thread/INFO] [Bo's Player Companions/]: 👾 Enable spawn for entity.player_companions.small_ghast (CREATURE) with weight 10, min 1 and max 1 in Optional[ResourceKey[minecraft:worldgen/biome / incendium:withered_forest]].
+[07Apr2025 00:35:16.414] [Server thread/INFO] [Bo's Player Companions/]: 👾 Supporter will automatically buff in a 8 block radius.
+[07Apr2025 00:35:16.414] [Server thread/INFO] [Bo's Player Companions/]: 👾 Healer will automatically heal between 2 - 10 hp in a 8 block radius.
+[07Apr2025 00:35:16.415] [Server thread/INFO] [Bo's Player Companions/]: 👾 Collector will automatically collect items in a 3 block radius.
+[07Apr2025 00:35:16.415] [Server thread/INFO] [Bo's Player Companions/]: Loading about 17 female NPC names ...
+[07Apr2025 00:35:16.415] [Server thread/INFO] [Bo's Player Companions/]: Loading about 17 male NPC names ...
+[07Apr2025 00:35:16.415] [Server thread/INFO] [Bo's Player Companions/]: Loading about 2 misc NPC names ...
+[07Apr2025 00:35:16.415] [Server thread/INFO] [Bo's Player Companions/]: Loading about 53 female companion names ...
+[07Apr2025 00:35:16.416] [Server thread/INFO] [Bo's Player Companions/]: Loading about 47 male companion names ...
+[07Apr2025 00:35:16.416] [Server thread/INFO] [Bo's Player Companions/]: Loading about 35 misc companion names ...
+[07Apr2025 00:35:16.417] [Server thread/INFO] [Bo's Player Companions/]: The max base health for player companions is set to 20.
+[07Apr2025 00:35:16.417] [Server thread/INFO] [Bo's Player Companions/]: The max base attack damage for player companions is set to 5.
+[07Apr2025 00:35:16.418] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions will be respawn on death with a 1200 secs delay.
+[07Apr2025 00:35:16.419] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions ignore entities from the same owner as attack target!
+[07Apr2025 00:35:16.419] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions friendly fire is disabled.
+[07Apr2025 00:35:16.425] [Server thread/INFO] [Bo's Player Companions/]: Enable automatic data backups every 1440 minutes, next backup will run at 1744072516 ...
+[07Apr2025 00:35:16.425] [Server thread/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Player Companion Data Manager ...
+[07Apr2025 00:35:16.965] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[07Apr2025 00:35:16.966] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07Apr2025 00:35:16.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Apr2025 00:35:32.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Apr2025 00:35:39.776] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.800] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.868] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.880] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.929] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.969] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.970] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.970] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.970] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.976] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.978] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.982] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.982] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.983] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.989] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:39.989] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:40.164] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Apr2025 00:35:40.667] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[07Apr2025 00:35:41.164] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[07Apr2025 00:35:41.449] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9286 ms
+[07Apr2025 00:35:41.450] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (25.435s)! For help, type "help"
+[07Apr2025 00:35:41.520] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Apr2025 00:35:41.570] [Server thread/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Server Starting setup ...
+[07Apr2025 00:35:41.572] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions preparing data for net.minecraft.server.dedicated.DedicatedServer@fbb13b0
+[07Apr2025 00:35:41.576] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions creating Backup 2025-04-07_00.35.41-player_companions_data.nbt ...
+[07Apr2025 00:35:41.576] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saved backup at /workspaces/Server-bien-good/servidor_minecraft/./world/./player_companions/2025-04-07_00.35.41-player_companions_data.nbt
+[07Apr2025 00:35:41.577] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions next planned backup is scheduled for 1744072541 in about 1440 min.
+[07Apr2025 00:35:41.577] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions loading data ...
+[07Apr2025 00:40:41.529] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saving data ... de.markusbordihn.playercompanions.data.PlayerCompanionsServerData@5f480db9
