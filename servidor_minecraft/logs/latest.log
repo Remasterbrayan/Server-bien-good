@@ -742,3 +742,23 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [07Apr2025 02:01:28.538] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.4250080339581928
 [07Apr2025 02:09:06.333] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FKL lost connection: Disconnected
 [07Apr2025 02:09:06.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL left the game
+[07Apr2025 02:16:50.161] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FKL[/127.26.175.236:51879] logged in with entity id 5741 at (1446.4191628703963, 65.0, -976.9541904050283)
+[07Apr2025 02:16:50.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL joined the game
+[07Apr2025 02:25:33.253] [Worker-Main-102/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2513, y=20, z=-934}
+[07Apr2025 02:26:16.602] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=2432, y=47, z=-662} but found not block entity block Block{minecraft:water}[level=8] at location
+[07Apr2025 02:26:16.604] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=8] but failed at location BlockPos{x=2432, y=47, z=-662}
+[07Apr2025 02:30:06.328] [Worker-Main-89/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2699, y=-1, z=-687}
+[07Apr2025 02:31:20.857] [Worker-Main-101/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2717, y=-14, z=-707}
+[07Apr2025 02:31:20.931] [Worker-Main-90/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2719, y=0, z=-699}
+[07Apr2025 02:31:40.108] [Worker-Main-101/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2735, y=-11, z=-743}
+[07Apr2025 02:31:40.111] [Worker-Main-101/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2727, y=-1, z=-738}
+[07Apr2025 02:31:40.111] [Worker-Main-101/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2730, y=0, z=-751}
+[07Apr2025 02:31:40.123] [Worker-Main-101/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2727, y=-1, z=-734}
+[07Apr2025 02:31:40.147] [Worker-Main-101/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=2722, y=0, z=-699}
+[07Apr2025 03:03:31.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has made the advancement [Ocean Cleanup]
+[07Apr2025 03:05:44.538] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.2638036731182183
+[07Apr2025 03:05:45.093] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.39259684821468
+[07Apr2025 03:05:45.136] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.8360886024879619
+[07Apr2025 03:05:45.186] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.2840319883700886
+[07Apr2025 03:05:45.239] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.6676731332033796
+[07Apr2025 03:05:45.290] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.1002882555928863
