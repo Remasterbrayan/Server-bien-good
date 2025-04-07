@@ -690,3 +690,5 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [07Apr2025 00:35:41.577] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions next planned backup is scheduled for 1744072541 in about 1440 min.
 [07Apr2025 00:35:41.577] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions loading data ...
 [07Apr2025 00:40:41.529] [Server thread/INFO] [Bo's Player Companions/]: 👾 Bo's Player Companions saving data ... de.markusbordihn.playercompanions.data.PlayerCompanionsServerData@5f480db9
+[07Apr2025 01:53:59.597] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: FKL[/127.26.175.236:49213] logged in with entity id 766 at (962.9026021812555, 87.0, -933.28193898386)
+[07Apr2025 01:53:59.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL joined the game
