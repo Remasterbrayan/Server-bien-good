@@ -7467,3 +7467,68 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [07Apr2025 01:53:59.611] [Server thread/DEBUG] [Paraglider/]: Finished adding village structures
 [07Apr2025 01:53:59.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL joined the game
 [07Apr2025 01:54:01.524] [Netty Epoll Server IO #0/DEBUG] [emotecraft/]: [emotes server] Received data from: 47619d92-d326-3d8e-b260-46bd9ded2893 data: NetData{purpose=CONFIG, threshold=8.0, stopEmoteID=null, emoteData=null, startingAt=0, player=null}
+[07Apr2025 01:55:41.690] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Apr2025 01:55:41.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Apr2025 01:58:46.169] [Server thread/DEBUG] [Bo's Player Companions/]: Skipping companion WelshCorgi['Alice'/1730, l='ServerLevel[world]', x=937.04, y=66.00, z=-1189.48, tamed=false, owner='~NULL~'] for registration because it has no owner, yet!
+[07Apr2025 01:58:50.073] [Server thread/DEBUG] [Bo's Player Companions/]: Skipping companion WelshCorgi['Bonnie'/1772, l='ServerLevel[world]', x=881.26, y=64.00, z=-1212.38, tamed=false, owner='~NULL~'] for registration because it has no owner, yet!
+[07Apr2025 02:00:37.591] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.attemptInitiateCast isClient:false, spellirons_spellbooks:summon_horse(4)
+[07Apr2025 02:00:37.592] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerPreCast isClient:false, spellirons_spellbooks:summon_horse(ServerLevel[world]), pmd:isCasting:true, spellID:irons_spellbooks:summon_horse], spellLevel:4, duration:20, durationRemaining:20, source:SPELLBOOK, type:LONG
+[07Apr2025 02:00:38.587] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.castSpell isClient:false, spellirons_spellbooks:summon_horse(4)
+[07Apr2025 02:00:38.589] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onCast isClient:false, spellirons_spellbooks:summon_horse(4), pmd:isCasting:true, spellID:irons_spellbooks:summon_horse], spellLevel:4, duration:20, durationRemaining:0, source:SPELLBOOK, type:LONG
+[07Apr2025 02:00:38.589] [Server thread/DEBUG] [io.redspace.ironsspellbooks.IronsSpellbooks/]: AbstractSpell.onServerCastComplete isClient:false, spellirons_spellbooks:summon_horse(4), pmd:isCasting:true, spellID:irons_spellbooks:summon_horse], spellLevel:4, duration:20, durationRemaining:0, source:SPELLBOOK, type:LONG, cancelled:false
+[07Apr2025 02:00:41.634] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Apr2025 02:00:41.648] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Apr2025 02:00:42.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.3448388460537899
+[07Apr2025 02:00:42.588] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.2046075079840648
+[07Apr2025 02:00:43.918] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.6357403870031249
+[07Apr2025 02:00:43.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.4857547885083022
+[07Apr2025 02:00:44.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.3355676550033877
+[07Apr2025 02:00:44.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 2.1846652982844716
+[07Apr2025 02:00:44.142] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 3.0328485596189694
+[07Apr2025 02:00:44.143] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 3.8805425534046663
+[07Apr2025 02:00:44.289] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.48025677002078737
+[07Apr2025 02:00:44.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.4805882644657231
+[07Apr2025 02:00:44.489] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.3281578040716795
+[07Apr2025 02:00:45.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.5574006051510878
+[07Apr2025 02:00:45.089] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.40263713917806854
+[07Apr2025 02:00:45.386] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.4018975175270043
+[07Apr2025 02:00:47.096] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.6299046691513013
+[07Apr2025 02:00:47.144] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.4849283434766676
+[07Apr2025 02:00:47.247] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.339666335554739
+[07Apr2025 02:00:47.289] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 2.0
+[07Apr2025 02:00:48.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.29633956331645095
+[07Apr2025 02:00:49.776] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.48334141406849085
+[07Apr2025 02:00:49.847] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.065057936299354
+[07Apr2025 02:00:49.888] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.6881525379983298
+[07Apr2025 02:00:49.899] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 2.442874739024158
+[07Apr2025 02:00:49.985] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 2.0
+[07Apr2025 02:00:50.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.0
+[07Apr2025 02:00:50.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.0
+[07Apr2025 02:00:55.242] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.30972206050751083
+[07Apr2025 02:00:55.304] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.8047251825000785
+[07Apr2025 02:00:55.388] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.4134554028692037
+[07Apr2025 02:00:59.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.4103998292916913
+[07Apr2025 02:00:59.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.2805091390093821
+[07Apr2025 02:00:59.837] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.7216574655783461
+[07Apr2025 02:00:59.890] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.9577071395767689
+[07Apr2025 02:00:59.890] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.0840126138105006
+[07Apr2025 02:00:59.943] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.1515961548134328
+[07Apr2025 02:01:00.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.1877587601336472
+[07Apr2025 02:01:22.654] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.39565343133131137
+[07Apr2025 02:01:22.734] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.8445937096169018
+[07Apr2025 02:01:22.787] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.2398420999556947
+[07Apr2025 02:01:22.835] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.7921472973571326
+[07Apr2025 02:01:22.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.37003486926646234
+[07Apr2025 02:01:27.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.3875702264510892
+[07Apr2025 02:01:28.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.9667359855400264
+[07Apr2025 02:01:28.087] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.6286796642225454
+[07Apr2025 02:01:28.135] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.3331501468362603
+[07Apr2025 02:01:28.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.578045879310821
+[07Apr2025 02:01:28.486] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 0.6135615066309583
+[07Apr2025 02:01:28.538] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of FKL) moved wrongly! 1.4250080339581928
+[07Apr2025 02:05:41.621] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Apr2025 02:05:41.632] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Apr2025 02:09:06.333] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FKL lost connection: Disconnected
+[07Apr2025 02:09:06.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL left the game
+[07Apr2025 02:10:41.590] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Apr2025 02:10:41.599] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
