@@ -7503,3 +7503,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [20Jul2025 04:41:24.457] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [20Jul2025 04:44:05.255] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FKL lost connection: Disconnected
 [20Jul2025 04:44:05.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL left the game
+[20Jul2025 04:46:24.361] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jul2025 04:46:24.371] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Jul2025 04:51:24.358] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Jul2025 04:51:24.367] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
