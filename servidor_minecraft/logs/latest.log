@@ -1931,3 +1931,6 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchou
 [20Jul2025 03:41:56.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL joined the game
 [20Jul2025 03:41:56.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has made the advancement [Orcz Challenges]
 [20Jul2025 03:41:56.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has completed the challenge [Choup's Drakvyrn Mod !]
+[20Jul2025 03:44:55.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL has completed the challenge [The Power of the Sun]
+[20Jul2025 03:45:32.070] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: FKL lost connection: Disconnected
+[20Jul2025 03:45:32.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: FKL left the game
